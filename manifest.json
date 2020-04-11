@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "IG download stories",
+    "version": "0.1",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.instagram.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

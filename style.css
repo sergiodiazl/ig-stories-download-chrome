@@ -1,0 +1,8 @@
+.story-header{
+    display:flex;
+}
+.download{
+    display: block;
+    color:white;
+    text-decoration: none;
+}
